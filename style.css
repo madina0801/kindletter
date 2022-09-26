@@ -1,0 +1,138 @@
+/* Common Styles */
+body {
+	background-color: #ffeedd;
+	font-family: 'Quicksand', sans-serif;
+	color: #e56b6f;
+	overflow-x: hidden;
+}
+
+button {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.flaticon-attr {
+	padding-bottom: 3rem;
+	text-align: center;
+}
+
+.sticker-img {
+	width: 10rem;
+	margin-bottom: 3rem;
+}
+
+/* Sign In page style */
+.sign-in-form {
+	text-align: center;
+}
+
+.form-floating {
+	margin-top: 1.5rem 0 1.5rem 0;
+	width: 50vw;
+}
+
+/* Main page style */
+/* Navigation */
+.nav-list {
+ list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 2rem;
+}
+
+.nav-list-link {
+	font-size: 1.5rem;
+	transition: all 0.5s;
+}
+
+.nav-list-link:hover {
+	color: #ff4d6d;
+	text-shadow: 10px 5px 5px #e56b6f;
+}
+
+.main-container {
+	text-align: center;
+	margin-bottom: 5rem;
+}
+
+.main-title {
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 7rem;
+	letter-spacing: 0.1rem;
+	color: #e56b6f;
+	margin-bottom: 3rem;
+}
+
+.main-title > div {
+	background-color: #fff;
+	transform: rotate(5deg);
+}
+
+.btn-sign-up {
+	padding: 0.7rem 4rem;
+	background-color: #ffd8be;
+	border: 2px solid #e56b6f;
+	border-radius: 5px;
+	font-size: 1.5rem;
+	font-weight: normal;
+	font-family: 'Quicksand', sans-serif;
+	color: #e56b6f;
+	transition: all 0.5s;
+}
+
+.btn-sign-up:hover {
+	background-color: #e56b6f;
+	color: #ffd8be;
+	cursor: pointer;
+}
+
+/* Failure page */
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10vw 0;
+	text-align: center;
+}
+
+h1 {
+	font-weight: 700;
+}
+
+p {
+	font-weight: 500;
+}
+
+/* About Page */
+.about-container {
+	max-width: 50%;
+	display: flex;
+	align-items: flex-start;
+}
+
+.about-section {
+	margin-bottom: 3rem;
+}
+
+.about-section-title {
+	padding-bottom: 1rem;
+	font-size: 2rem;
+}
+
+.about-section-desc {
+	font-size: 1.35rem;
+}
+
+
+.arrow-back {
+	filter: invert(42%) sepia(35%) saturate(2503%) hue-rotate(319deg) brightness(101%) contrast(102%);
+
+	width: 3rem;
+	position: relative;
+}
