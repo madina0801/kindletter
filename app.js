@@ -66,9 +66,6 @@ app.post('/signup', function(req, res) {
 		if(response.statusCode === 200) {
 			res.sendFile(path.join(__dirname, "success.html"))
 		} else res.sendFile(path.join(__dirname, "failure.html"));
-
-		response.on("data", function(data) {
-		})
 	})
 
 	request.write(jsonData);
@@ -99,10 +96,4 @@ app.post("/about",  function(req, res) {
 	res.redirect("/");
 })
 
-
-
-
 app.listen(3000, console.log("Listening on port 3000!"))
-
-// Mailchimp API b442a0aecc7202c5ea55263b286fc688-us18
-// Mailchimp List ID 243585a6c1
