@@ -1,5 +1,5 @@
 # Kindletter
-is a newsletter created with Mailchimp API.
+A newsletter created with Mailchimp API. Please visit this site - https://kindletter.onrender.com/ :)
 # Main page
 ![main](https://user-images.githubusercontent.com/101329759/195993651-be36d6dd-2f86-4dde-ad59-07e37992eb1e.PNG)
 # Signup Page
