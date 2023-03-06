@@ -6,7 +6,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src -d",
+    "build": "babel -f app.js",
     "start": "node --use_strict ./app.js",
     "watch": "nodemon --exec \"npm run build && node app.js\" -e js --ignore lib/"
   },
@@ -16,5 +16,9 @@
   "dependencies": {
     "dotenv": "^16.0.2",
     "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0"
   }
 }
